@@ -484,7 +484,7 @@ void cMenu::renderAim(int x, int y) {
     this->renderCheckbox(x + 310, y + 40, "Fake", &vars.misc.fakeaa); // 60
     draw->drawstring(x + 310, y + 60, FontColor, mFont, "LBY Delta");
     this->renderSlider(x + 310, y + 80, 180, "", vars.misc.delta, 180, 0);
-    draw->drawstring(x + 310, y + 100, FontColor, mFont, "Server Crasher");
+    draw->drawstring(x + 310, y + 100, FontColor, mFont, "Fakes");
     this->renderSlider(x + 310, y + 120, 180, "", vars.aimbot.baimunder, 100, 0);
     
     /*
